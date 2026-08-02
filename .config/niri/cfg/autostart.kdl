@@ -1,0 +1,12 @@
+// ────────────── Startup Applications ──────────────
+// https://github.com/YaLTeR/niri/wiki/Configuration:-Miscellaneous#spawn-sh-at-startup
+
+// spawn-sh-at-startup "qs -c noctalia-shell"
+spawn-at-startup "swaync"
+spawn-at-startup "waybar"
+spawn-at-startup "fcitx5"
+spawn-at-startup "waypaper" "--restore"
+spawn-at-startup "xwayland-satellite"
+spawn-at-startup "/usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1"
+
+
