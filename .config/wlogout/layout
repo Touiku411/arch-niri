@@ -1,6 +1,6 @@
 {
     "label" : "lock",
-    "action" : "$HOME/.config/hypr/scripts/hyprlock.sh",
+    "action" : "$HOME/.config/niri/scripts/hyprlock.sh",
     "text" : "Lock",
     "keybind" : "l"
 }
@@ -18,7 +18,7 @@
 }
 {
     "label" : "logout",
-    "action" : "loginctl kill-session $XDG_SESSION_ID",
+    "action" : "niri msg action quit || (systemctl restart sddm || exit)",
     "text" : "Logout",
     "keybind" : "e"
 }
