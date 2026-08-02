@@ -59,19 +59,19 @@
           "actions": [
               {
                   "label": "󰐥",
-                  "command": "bash -c $HOME/.config/hypr/scripts/Wlogout.sh"
+                  "command": "bash -c $HOME/.config/niri/scripts/Wlogout.sh"
               },
               {
                   "label": "󰌾",
-                  "command": "bash -c $HOME/.config/hypr/scripts/hyprlock.sh"
+                  "command": "bash -c $HOME/.config/niri/scripts/hyprlock.sh"
               },
               {
                   "label": "󰍃",
-                  "command": "hyprctl dispatch exit"
+                  "command": "niri msg action quit"
               },
               {
                   "label": "󰀝",
-                  "command": "bash -c $HOME/.config/hypr/scripts/AirplaneMode.sh"
+                  "command": "bash -c $HOME/.config/niri/scripts/AirplaneMode.sh"
               },
               {
                   "label": "󰝟",
