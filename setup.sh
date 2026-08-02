@@ -20,6 +20,7 @@ PKGS_PACMAN=(
     "brightnessctl"
     "grim"
     "slurp"
+    "libnotify"
     "ttf-jetbrains-mono-nerd"
     "wlogout"
 )
